@@ -15,18 +15,38 @@
   <img src="assets/lite-xl.png"/>
 </p>
 
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="https://raw.githubusercontent.com/redlolz/lite-xl-colors-catppuccin/main/assets/latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="https://raw.githubusercontent.com/redlolz/lite-xl-colors-catppuccin/main/assets/frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="https://raw.githubusercontent.com/redlolz/lite-xl-colors-catppuccin/main/assets/macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="https://raw.githubusercontent.com/redlolz/lite-xl-colors-catppuccin/main/assets/mocha.png"/>
+</details>
+
 ## Usage
 
 1. Clone this repository
 2. open the cloned directory
-3. copy the `colors/catppuccin.lua` to `~/.config/lite-xl/colors/`
-4. in `~/.config/lite-xl/init.lua` add this line
-  + ```core.reload_module("colors.catppuccin")```
+3. copy the desired theme from the `colors` directory to `~/.config/lite-xl/colors/`
+4. in `~/.config/lite-xl/init.lua` add this line and replace `flavour` with either `latte`, `frappe`, `macchiato` or `mocha`
+  + ```core.reload_module("colors.catppuccin_flavour")```
 
 
 ## 💝 Thanks to
 
 - [Saimoomedits](https://github.com/saimoomedits)
+- [Redlolz](https://github.com/redlolz)
 
 &nbsp;
 
